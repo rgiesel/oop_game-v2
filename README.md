@@ -11,8 +11,8 @@ letter appear in the phrase. If the user guesses incorrectly, they lose a life.
 The user starts out with 5 lives. The game ends when the user correctly guesses
 all of the letters in the phrase (Win!) or when the user runs out of lives (loss).
 
-The following CSS changes were made to give this project a more personal touch:
--Modified the overlay background colors for start, win, and lose screens.
--Modified the background color of keys.
--Modified the font used throughout. 
+The following CSS changes were made to give this project a more personal touch:<br>
+-Modified the overlay background colors for start, win, and lose screens.<br>
+-Modified the background color of keys.<br>
+-Modified the font used throughout.<br>
 -Added shadowing to the h2 text.
