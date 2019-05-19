@@ -4,13 +4,13 @@
 /* Variables */
 
 :root {
-  --color-win: #78CF82;
+  --color-win: #bcef2f;
   --color-lose: #D94545;
   --color-start: #5b85b7;
   --color-neutral: #445069;
   --color-neutral-light: #D2D2D2;
-  --color-keys: #37474F;
-  --color-keys-light: #E5E5E5;
+  --color-keys: white;
+  --color-keys-light: black;
   --font-size-large: 60px;
   --font-size-medium: 20px;
   --transition: all .2s ease-in-out;
@@ -20,7 +20,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Verdana;
 }
 
 body {
@@ -87,6 +87,7 @@ button {
 
 .header {
   color: #3a3f58;
+  text-shadow: 2px 2px red;
 }
 
 
@@ -131,14 +132,14 @@ button {
 }
 
 .chosen {
-  background: #3a3f58;
+  background: red;
   border-radius: 5px;
   font-size: var(--font-size-medium);
   color: #FFFFFF;
 }
 
 .wrong {
-  background: #f7a964;
+  background: #5a635f;
   color: #FFFFFF;
 }
 
@@ -177,10 +178,11 @@ button {
 
 .title {
   color: #FFF;
+  text-shadow: 2px 2px red;
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: #4875a5;
 }
 
 .start a {
@@ -196,7 +198,7 @@ button {
 }
 
 .lose {
-  background-color: #f5785f;
+  background-color: #2a3542;
 }
 
 .lose a {
